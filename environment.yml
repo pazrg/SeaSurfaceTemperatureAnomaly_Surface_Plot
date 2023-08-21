@@ -1,0 +1,11 @@
+name: ssta-as-surface
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip:
+    - matplotlib
+    - plotly
+    - netCDF4
+    - xarray
